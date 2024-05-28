@@ -69,13 +69,12 @@ button {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
 }
 
-/*---------category----------*/
 .contentWidth {
   width: 77%;
 }
 .category {
-  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
-  background-color: #dbaf0f;
+  /* box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px; */
+  background-color: #c9bbc8 ;
   width: 23%;
   height: 510px;
   padding: 15px 0;
@@ -96,14 +95,13 @@ button {
   transition: 0.5s;
   padding: 0 20px;
 }
-.category .box:hover {
+/* .category .box:hover {
   background-color: #fa6a82;
   cursor: pointer;
-}
+} */
 
-/*---------category----------*/
 .btn-primary {
-  background: #e94560;
+  /* background: #e94560; */
   padding: 13px 40px;
   font-weight: bold;
   color: #170303;
@@ -116,27 +114,26 @@ button {
   margin-top: 40px;
 }
 .heading i {
-  color: #e94560;
+  /* color: #e94560; */
   margin: 10px;
 }
 .discount {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e94560;
+  /* background: #e94560; */
   padding: 3px 10px;
   font-size: 12px;
   border-radius: 50px;
-  color: #1d0404;
+  /* color: #1d0404; */
   margin: 10px;
 }
-/*---------product-----------*/
 .product {
-  background: #f5f553;
+  background: #e5c1cd;
   padding: 20px;
   position: relative;
   border-radius: 8px;
-  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  /* box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px; */
   margin: 10px;
 }
 .product h3 {
@@ -145,17 +142,17 @@ button {
 }
 .product .rate i {
   font-size: 15px;
-  color: #e8680c;
+  /* color: #e8680c; */
   margin: 5px 5px 5px 0;
 }
 .product .price {
   display: flex;
   justify-content: space-between;
-  color: #e94560;
+  /* color: #e94560; */
 }
 .price button {
   background: none;
-  color: #e94560;
+  /* color: #e94560; */
   font-size: 20px;
   transition: 0.5s;
   border: 1px solid rgb(3 0 71 / 9%);
@@ -165,7 +162,7 @@ button {
 }
 .price button:hover {
   cursor: pointer;
-  background-color: #e94560;
+  /* background-color: #e94560; */
   color: #fff;
 }
 .product-like {
@@ -177,7 +174,7 @@ button {
   transition: 0.5s;
 }
 .product-like label {
-  background-color: #0f3460;
+  /* background-color: #0f3460; */
   padding: 1px 10px;
   font-size: 12px;
   color: white;
@@ -190,8 +187,7 @@ button {
 .product:hover .product-like {
   opacity: 1;
 }
-/*---------product-----------*/
-/*----- control btn -------*/
+
 .control-btn .next,
 .control-btn .prev {
   position: absolute;
@@ -199,7 +195,7 @@ button {
   width: 50px;
   height: 50px;
   line-height: 60px;
-  background: #0f3460;
+  /* background: #0f3460; */
   border-radius: 50%;
   transform: 0.5s;
   z-index: 5;
@@ -218,12 +214,11 @@ button {
 }
 .control-btn .prev:hover,
 .control-btn .next:hover {
-  background: #e94560;
+  /* background: #e94560; */
   color: white;
   cursor: pointer;
 }
-/*----- control btn -------*/
-/*----- heading -------*/
+
 .heading .heading-left i {
   font-size: 30px;
 }
@@ -236,7 +231,7 @@ button {
   text-align: right;
   color: grey;
 }
-/*----- heading -------*/
+
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

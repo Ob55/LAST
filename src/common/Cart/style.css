@@ -1,5 +1,5 @@
 .cart-items {
-  background: #091b2e;
+  background: #c9bbc8 ;
   height: auto;
   padding: 50px 0;
 }
@@ -15,7 +15,7 @@
   height: 130px;
 }
 .cart-list {
-  background: rgb(221, 115, 22);
+  /* background: rgb(221, 115, 22); */
   margin-top: 30px;
 }
 .cart-items .img {
@@ -65,7 +65,7 @@
   color: #d6b6bc;
 }
 .desCart {
-  background: #ebeb15;
+  background: #e5c1cd;
 }
 .cart-total h4 {
   font-size: 15px;
@@ -74,7 +74,7 @@
 .cart-total h3 {
   font-size: 20px;
   font-weight: 500;
-  color: #40d803;
+  /* color: ; */
 }
 .cart-total h2 {
   font-size: 18px;

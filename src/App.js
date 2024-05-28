@@ -13,7 +13,7 @@ import About from "./common/footer/About";
 import "./common/SearchResult/SearchResult.css"; 
 import UserAccount from "./common/UserAccount/UserAccount";
 import "./common/UserAccount/UserAccount.css";
-
+import ComparePage from "./common/comperisonPage/comparisonPage";
 const App = () => {
   const { productItems } = Data;
   const { shopItems } = Sdata;
@@ -65,9 +65,13 @@ const App = () => {
         <Route path="/about" exact>
           <About /> {/* Render the About component */}
         </Route>
+        <Route path="/comp" exact>
+          <ComparePage /> {/* Render the About component */}
+        </Route>
         <Route path="/user" exact>
   <UserAccount />
 </Route>
+      
 
       </Switch>
       <Footer />

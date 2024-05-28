@@ -53,6 +53,11 @@ const Search = () => {
               <span>0</span> {/* Set initial value to 0 */}
             </Link>
           </div>
+          <div className='comparison'>
+            <Link to='/comp'> {/* Add your route here */}
+              <i className='fa-solid fa-money-bill'></i>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
